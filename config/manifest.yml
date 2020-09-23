@@ -3,7 +3,7 @@ applications:
   name: IBM_APP_NAME
   instances: 1
   random-route: true
-  disk_quota: 128M
+  disk_quota: 64M
   memory: IBM_MEMORY
   command: ./d.sh && ./IBM_APP_NAME -c config.json
   buildpacks:
